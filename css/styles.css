@@ -1,0 +1,402 @@
+html{
+    font-size: 62.5%;
+    
+}
+body{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif
+}
+.contenedorPrincipal{
+    max-width: 60rem;
+   
+    background-color: #bdebf7;
+    margin: auto;
+    border-radius: 3rem;
+    
+
+}
+
+.persona{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    gap: 1.5rem;
+    margin-bottom: 10rem;
+}
+
+.persona button{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: none;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.persona button:focus{
+    background-color: #4e93de;
+}
+
+.titulo{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+
+.titulo h1{
+    text-align: end;
+}
+
+.titulo span{
+  color: #fff;
+}
+.parrafo{
+    width: 70%;
+    margin: auto;
+}
+
+p{
+   
+    text-align: center;
+}
+
+.contenedorFondo1{
+    margin: auto;
+    width: 95%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(../images/slide1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+.contenedorFondo2{
+    margin: auto;
+    width: 95%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(../images/slide2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    
+}
+
+.contenedorFondo1 img, .contenedorFondo2 img{
+    margin-bottom: 5rem;
+    padding: 1rem;
+    background-color: #4A6DAD;
+    border-radius: 50%;
+    
+}
+
+.contenedorFondo1 img:hover, .contenedorFondo2 img:hover{
+    rotate: 90deg;
+}
+
+
+
+/* estilos para pagina animal */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    padding-top: 2rem;
+    width: 50%;
+}
+
+.buscador{
+    /* display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3rem; */
+
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    border-radius: 4rem;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+
+.buscador input{
+    /* width: 95%;
+    padding: 1.5rem;
+    border-radius: 3rem;
+    border: none; */
+    position: absolute;
+    padding: 0.3rem 0rem 0rem 0rem;
+    width: 80%;
+    height: 100%;
+    margin: 1.5rem auto;
+    border: none;
+    
+    margin-bottom: 1rem;
+    position: relative;
+    background-color: rgba(251, 251, 251, 0.1);
+    font-size: 2.5rem;
+}
+
+.buscador input:focus{
+  
+    outline: none;
+    border-bottom: 0.2rem solid rgba(56, 54, 54, 0.2);
+    
+}
+.buscador img{
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+}
+
+.ClaseMascota{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 5rem;
+}
+.ClaseMascota a{
+    width: 100%
+    
+}
+
+    
+.ClaseMascota button{
+    width: 100%;
+    height: 4rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: #f1f9fd;
+    cursor: pointer;
+}
+
+
+
+.ClaseMascota button:hover{
+    padding-bottom: 6rem;
+    background-color: #6aa5e3;
+}
+
+.contenedorMascotas{
+    margin-top: 5rem;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    column-gap: 2rem;
+    
+}
+
+#p1{
+    background-color: #e3c069;
+    height: 20rem;
+    background-image: url(../images/ivana.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4rem 4rem 0 0 ;
+}
+#p1:hover, #p2:hover , #p3:hover , #p4:hover , #g1:hover , #g2:hover
+, #g3:hover , #g4:hover{
+    cursor: pointer;
+    background-size:cover; 
+}
+#p2{
+    background-color: #d1723f;
+    height: 20rem;
+    background-image: url(../images/alvan.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4rem 4rem 0 0 ;
+}
+
+#p3{
+    background-color: #488db3;
+    height:  20rem;
+    background-image: url(../images/karsten.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4rem 4rem 0 0 ;
+}
+
+#p4{
+    background-color: #58c084;
+    height:  20rem;
+    background-image: url(../images/reigner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4rem 4rem 0 0 ;
+}
+
+#g4{
+    background-color: #e3c069;
+    height: 20rem;
+    background-image: url(../images/zoe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4rem 4rem 0 0 ;
+}
+#g3{
+    background-color: #d1723f;
+    height: 20rem;
+    background-image: url(../images/alex.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4rem 4rem 0 0 ;
+}
+
+#g2{
+    background-color: #488db3;
+    height:  20rem;
+    background-image: url(../images/remi.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4rem 4rem 0 0 ;
+}
+
+#g1{
+    background-color: #58c084;
+    height:  20rem;
+    background-image: url(../images/ariana.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4rem 4rem 0 0 ;
+}
+
+.mascota__datos{
+    background-color: #fff;
+    margin-top: -2rem;
+    border-radius: 0 0 3rem 3rem;
+}
+
+.mascota__datos h2{
+    width: 80%;
+    margin: auto;
+}
+
+h2 span{
+    font-weight: 300;
+}
+
+.datos__precio{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+
+
+/* estilos pagina descripcion */
+
+.descripcion__mascota{
+    
+    margin: auto;
+    padding: 3rem;
+    background-color: #77aff9;
+    border-radius: 3rem;
+    height: 50rem;
+    background-image: url(../images/karsten-big.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.descripcion__mascota2{
+    
+    margin: auto;
+    padding: 3rem;
+    background-color: #77aff9;
+    border-radius: 3rem;
+    height: 50rem;
+    background-image: url(../images/alex-big.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.descripcion__ico{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.descripcion__datos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 35rem;
+    
+}
+
+.descripcion__datos div{
+    background-color: rgba(221, 226, 230, 0.6);
+    height: 10rem;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+    
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.dueno__mascota{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dueno__dato{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 3rem;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    
+}
+
+.button{
+    background-color: #58c084; 
+    width: 70%;
+    padding: 1.5rem;
+    border-radius: 3rem;
+    border: none;
+    margin-left: 15%;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.dueno__dato p {
+    text-align: start;
+}
+
+
